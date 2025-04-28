@@ -1,4 +1,4 @@
-# Durex OOH Previewer
+# Zalanod Les Ardentes 2025 OOH 
 
 This project serves as a visual preview tool for Zalando Les Ardentes  Out-Of-Home (OOH) creative assets. It randomly displays images from the `/images` folder inside a simulated digital billboard format.
 
