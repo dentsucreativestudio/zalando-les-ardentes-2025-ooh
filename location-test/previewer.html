@@ -15,31 +15,31 @@
       -moz-osx-font-smoothing: grayscale;
     }
 
-    /* CSS RESET */
     html, body {
-      width: 100%;
-      height: 100%;
-      line-height: 1;
-    }
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
 
-    body {
-      background: #000;
-    }
+      body {
+        background: #080513;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
 
-    .image-wrapper {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 1080px;
-      height: 1920px;
-      overflow: hidden;
-      transform-origin: top left;
-      background-color: #000;
-    }
+      .image-wrapper {
+        width: 1080px;
+        height: 1920px;
+        background-color: #000;
+        transform-origin: center center;
+      }
 
     #mainImage {
-      width: 100%;
-      height: 100%;
+      /* width: 100%;
+      height: 100%; */
       object-fit: cover;
       display: none;
       opacity: 0;
@@ -65,11 +65,15 @@
 
   <script>
     
+
+    //online link previewer
+    //https://dentsucreativestudio.github.io/2025-durex-ooh/previewer.html
+
     const fallbackImage = 'fallback.jpg'; // Local fallback
     const imageEl = document.getElementById('mainImage');
 
     const repoOwner = 'dentsucreativestudio';
-    const repoName = 'zalando-les-ardentes-2025-ooh';
+    const repoName = '2025-durex-ooh';
     const folderPath = 'images';  // Folder in your repo containing images
 
     async function fetchImageList() {
@@ -94,6 +98,9 @@
       } catch (error) {
         console.error('Error fetching image list:', error);
       }
+
+      //call to scale div
+      scaleToFitVertical()
     }
 
     function displayImages(imageUrls) {
@@ -117,6 +124,20 @@
       imageEl.src = randomImage;
       
     }
+
+
+    //fit scale div
+    function scaleToFitVertical() {
+      const wrapper = document.querySelector('.image-wrapper');
+        const padding = 80; // 40 top + 40 bottom
+        const availableHeight = window.innerHeight - padding;
+        const scale = availableHeight / 1920;
+        wrapper.style.transform = `scale(${scale})`;
+
+      }
+
+      window.addEventListener('resize', scaleToFitVertical);
+      
 
     // Load images when the page loads
     document.addEventListener("DOMContentLoaded", fetchImageList);
