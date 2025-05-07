@@ -43,7 +43,7 @@
       object-fit: cover;
       display: none;
       opacity: 0;
-      transition: opacity 0.3s ease-in;
+      transition: opacity 0.25s ease-in;
     }
 
     #mainImage.loaded {
@@ -74,7 +74,7 @@
 
     const repoOwner = 'dentsucreativestudio';
     const repoName = '2025-durex-ooh';
-    const folderPath = 'images';  // Folder in your repo containing images
+    const folderPath = 'location-test/images';  // Folder in your repo containing images
 
     async function fetchImageList() {
       const url = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}`;
