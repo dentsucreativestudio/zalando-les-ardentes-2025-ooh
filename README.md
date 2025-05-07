@@ -5,7 +5,7 @@ This project serves as a visual preview tool for Zalando Les Ardentes  Out-Of-Ho
 ## 🔗 Live Preview
 
 View the live preview here:  
-👉 [https://dentsucreativestudio.github.io/zalando-les-ardentes-2025-ooh/previewer.html](https://dentsucreativestudio.github.io/2025-durex-ooh/previewer.html)
+👉 [https://dentsucreativestudio.github.io/zalando-les-ardentes-2025-ooh/previewer.html](https://dentsucreativestudio.github.io/zalando-les-ardentes-2025-ooh/previewer.html)
 
 ---
 
@@ -14,7 +14,7 @@ View the live preview here:
 To display new images in the previewer:
 
 1. Go to the `images` folder in the repo:
-   👉 [https://github.com/dentsucreativestudio/zalando-les-ardentes-2025-ooh/tree/main/images](https://github.com/dentsucreativestudio/2025-durex-ooh/tree/main/images)
+   👉 [https://github.com/dentsucreativestudio/zalando-les-ardentes-2025-ooh/tree/main/images](https://github.com/dentsucreativestudio/zalando-les-ardentes-2025-ooh/tree/main/images)
 
 2. Click the **“Add file”** button → **“Upload files”**.
 
@@ -29,7 +29,7 @@ To display new images in the previewer:
 To remove an image:
 
 1. Visit the `images` folder:  
-   👉 [https://github.com/dentsucreativestudio/zalando-les-ardentes-2025-ooh/tree/main/images](https://github.com/dentsucreativestudio/2025-durex-ooh/tree/main/images)
+   👉 [https://github.com/dentsucreativestudio/zalando-les-ardentes-2025-ooh/tree/main/images](https://github.com/dentsucreativestudio/zalando-les-ardentes-2025-ooh/tree/main/images)
 
 2. Click on the image you want to delete.
 
